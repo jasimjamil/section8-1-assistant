@@ -23,7 +23,7 @@ def ask(question):
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "muhammadjasim12/rainforcejasim-merged",
+        "model": "muhammadjasim12/rainforcejasim",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": question}
