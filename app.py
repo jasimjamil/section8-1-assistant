@@ -10,8 +10,8 @@ st.set_page_config(
 st.title("⚖️ Section 8.1 Legal Assistant")
 st.markdown("**Reinforcement Fine-Tuned Model | ITAA 1997 - Section 8.1 (General Deductions)**")
 st.markdown("---")
+API_URL = "https://api-inference.huggingface.co/models/muhammadjasim12/rainforcejasim-merged"
 
-https://api-inference.huggingface.co/models/muhammadjasim12/rainforcejasim-merged
 
 SYSTEM_PROMPT = """You ONLY answer questions about Section 8.1 of the Income Tax Assessment Act 1997 (General Deductions). If a question is about any other section, topic, or contains wrong details about Section 8.1, refuse or correct it. Never add information not in Section 8.1."""
 
